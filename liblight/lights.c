@@ -190,13 +190,6 @@ set_speaker_light_locked(struct light_device_t* dev,
 
     colorRGB = state->color;
 
-#ifdef WHITE_LED
-    colorRGB = 16711680;
-
-    if ( !(state->color & 0xFFFFFF) )
-      colorRGB  = state->color;
-#endif
-
 #if 0
     ALOGD("set_speaker_light_locked mode %d, colorRGB=%08X, onMS=%d, offMS=%d\n",
             state->flashMode, colorRGB, onMS, offMS);
@@ -217,6 +210,8 @@ set_speaker_light_locked(struct light_device_t* dev,
             blink = 2;
         else
             blink = 1;
+    } else if (state->flashMode == LIGHT_FLASH_HARDWARE) {
+        blink = 2;
     } else {
         blink = 0;
     }
