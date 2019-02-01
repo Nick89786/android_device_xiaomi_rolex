@@ -27,6 +27,10 @@ vendor/lib/soundfx/libdirac.so
 vendor/lib/libDiracAPI_SHARED.so
 vendor/etc/diracmobile.config
 
+# Audiosphere 
+vendor/lib/soundfx/libasphere.so 
+vendor/lib64/soundfx/libasphere.so
+
 # Bluetooth - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|9178856dc8651b499d1b155825b6115a486ee05e
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
