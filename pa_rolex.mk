@@ -15,13 +15,23 @@
 # limitations under the License.
 #
 
+# Check for the target product.
+ifeq (pa_rolex,$(TARGET_PRODUCT))
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Set bootanimation to 720p display
+TARGET_BOOT_ANIMATION_RES := 720
+
+# Inherit some common Aospa stuff.
+TARGET_ARCH := arm64
+TARGET_DENSITY := xhdpi
+
+# Inherit from our common CAF device tree.
+include device/qcom/common/common.mk
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -30,7 +40,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 4A
-PRODUCT_NAME := lineage_rolex
+PRODUCT_NAME := pa_rolex
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
@@ -42,3 +52,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="rolex-user 7.1.2 N2G47H V9.2.6.0.NCCMIEK release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/rolex/rolex:7.1.2/N2G47H/V9.2.6.0.NCCMIEK:user/release-keys
+
+
+# Paranoid Android platform
+include vendor/pa/main.mk
+
+endif
