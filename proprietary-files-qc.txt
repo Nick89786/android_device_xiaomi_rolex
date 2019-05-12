@@ -1,26 +1,26 @@
-# ADSP - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/adsprpcd|3d1e7e14dfc2f2468a06e0af9c0d34f4bda28d4b
-vendor/lib/libadsprpc.so|a2ff69f96a9242d4be0fe5cae2475c23294f937a
+# ADSP - from op3 PKQ1.181203.001 1904252148
+vendor/bin/adsprpcd|ef200e3bce4429fd9461c74330a003f069ffd5b3
+vendor/lib/libadsprpc.so|76cf6bd3975e933f1bec55499da3c3e7a17a9e6d
 vendor/lib/libfastcvadsp_stub.so|6b50fd7d53811b51e06fedd87c12a794d0c2f645
-vendor/lib/libfastcvopt.so|be6d462207dcc238a734d324c479d1022a324c16
-vendor/lib64/libadsp_default_listener.so|f7ea94537c66dfa11e1235064d43c8f56c3b3c51
-vendor/lib64/libadsprpc.so|fe4a7c28a2284ab95c068ad3ffaf256705cf9a02
+vendor/lib/libfastcvopt.so|797b9843ccc1f650d66831d645db2bc96b89c299
+vendor/lib64/libadsprpc.so|bc7504a5c64c73748927404be5ccfe4015146d25
+vendor/lib64/libadsp_default_listener.so|e1d57433c5af24e3227b679367c133dde1014714
 
-# Audio - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib/libacdb-fts.so|f140cc5c13855f411d9b944316828b42dd6b7d75
-vendor/lib/libacdbloader.so|52fb25441a742d744f6574d1065ae1b822769c48
-vendor/lib/libacdbrtac.so|8a469a26ed1ecff8e22ee141d98bde97513a6212
-vendor/lib/libadiertac.so|e8e2c208abafc6d6c34717aee3d822bfb3a23f76
-vendor/lib/libadm.so|01e2316dfa1afcb000984e9f68903ba6a1220159
-vendor/lib/libaudcal.so|5a6b0fa75e274b07f2dabdcc7381879e1a59898c
-vendor/lib/soundfx/libqcbassboost.so|0a730813a7335208a5368f48de4790abda536c59
-vendor/lib/soundfx/libqcreverb.so|3cbf222a205e4ccbe812fc69d580abd2237e64d5
-vendor/lib/soundfx/libqcvirt.so|8f60a539fe18de5944d5f1dcd6d0ec5e56b336ea
-vendor/lib64/libacdb-fts.so|1a298a90fe8007fe1a3b352ff7d19ae73734f3cc
-vendor/lib64/libacdbloader.so|2ecf30ba0171aab7fdc720446238d48048cf6b7e
-vendor/lib64/libacdbrtac.so|c44ff9b9aa63e34ca1b77a5f0bfb6a5e50585048
-vendor/lib64/libadiertac.so|aeaf6f057d26acf342609c714213e1c9b3409774
-vendor/lib64/libaudcal.so|96c43cbe0ac304ea128def709d7f3ea99db7f260
+# Audio - from op3 PKQ1.181203.001 1904252148
+vendor/lib/libacdb-fts.so|100e698279595c86656d5c1fa1773863b4cd05f3
+vendor/lib/libacdbloader.so|b28fa1c9f39bc4f4641307c442a20cf53dd2acb8
+vendor/lib/libacdbrtac.so|25ea2d51f215c1e5e06b298d7c93097e93db7a63
+vendor/lib/libadiertac.so|e5231cdfc829b673702c4661751854bc44f7c72b
+vendor/lib/libadm.so|355bbe01f7117f3e16435224ce0c75b111a0f5b8
+vendor/lib/libaudcal.so|4508cee149c22b8e35e8f4423f38a8e8a9b5d130
+vendor/lib/soundfx/libqcbassboost.so|572d03f4566f3e08aeac948b9ef92817af243a39
+vendor/lib/soundfx/libqcreverb.so|a9ae6d150aae44358783e6b0c4cfb0b3fec27f6b
+vendor/lib/soundfx/libqcvirt.so|4181edde0747774830930f66f20a756fec95118d
+vendor/lib64/libacdb-fts.so|4f11f438d9830e1b6a9022e164e5c21a62a077cf
+vendor/lib64/libacdbloader.so|f7ea51ff749b47bbd18645b6e4358135d2deea65
+vendor/lib64/libacdbrtac.so|1c7f1cb8b4209e382e5c94f60b08e09cb3ad8b6f
+vendor/lib64/libadiertac.so|4e600d84dc23c6dfc9e73e49c6d9591941c95388
+vendor/lib64/libaudcal.so|093eb55abf185b82e534a6b606fb0da1d9c8b1cc
 
 # Audio dirac - from xiaomi
 vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
