@@ -98,7 +98,7 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8937 \
-    Snap
+    SnapdragonCamera2
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
