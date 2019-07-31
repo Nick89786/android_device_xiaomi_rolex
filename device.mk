@@ -112,8 +112,11 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
-# Charger
-include $(LOCAL_PATH)/rootdir/charger/charger.mk
+# OMNI Charger Images
+PRODUCT_PACKAGES += \
+    omni_charger_res_images \
+    animation.txt \
+    font_charger.png
 
 # Display
 PRODUCT_PACKAGES += \
