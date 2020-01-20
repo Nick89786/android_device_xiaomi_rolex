@@ -284,6 +284,27 @@ vendor/bin/pm-proxy|56e9bdaa39270aa4456c9995a8a9e4618ba616a6
 vendor/bin/pm-service|7cbca1671529a805177f11f3f72defdbbe48a61c
 vendor/lib64/libperipheral_client.so|e2fbf94c589dbf8ae6c544a34441783ae9db3a08
 
+# Postprocessing - from LA.UM.8.6.r1-01900-89xx.0
+etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
+-framework/com.qti.snapdragon.sdk.display.jar|db5b8dd09100aab238b5972192f5ab944f38208c
+lib/vendor.display.color@1.0.so|68f3b191767e32ebe6d1e77725d22bfd1152ce14
+lib/vendor.display.postproc@1.0.so|fe3bfd38306d1c5e2c1ba900c18ccc09b9152b61
+lib64/vendor.display.color@1.0.so|26e35e9283f242bc7771bd40fbfbb0d95ef8951d
+lib64/vendor.display.postproc@1.0.so|40910c332df5288c60bae04f99747c526b5499bd
+vendor/bin/mm-pp-dpps|b6232bb606d3a825c49db06d887c77f23c950069
+vendor/bin/hw/vendor.display.color@1.0-service|633a0a4bed08202ef3799275f06920eb4382db31
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib/libdisp-aba.so|899f5fa3875c7c536df030dfa1db3b84041131b0
+vendor/lib/vendor.display.color@1.0.so|68f3b191767e32ebe6d1e77725d22bfd1152ce14
+vendor/lib/vendor.display.color@1.1.so|9fc879923cdf549709fe09913393f4a01af052cb
+vendor/lib/vendor.display.color@1.2.so|88782c36567cf84014710e94630c94217f030fd6
+vendor/lib/vendor.display.postproc@1.0.so|fe3bfd38306d1c5e2c1ba900c18ccc09b9152b61
+vendor/lib64/libdisp-aba.so|0444e77190b509144d9a6730034c000324703c93
+vendor/lib64/vendor.display.color@1.0.so|603095564d7e341cc50556e7b8a0d80da0c85ee3
+vendor/lib64/vendor.display.color@1.1.so|88fd94a85552a0d8c13f363541c5a5b8933ea1f2
+vendor/lib64/vendor.display.color@1.2.so|4c8662c993e4af6df2d6ebc4101caee0d629e0d2
+vendor/lib64/vendor.display.postproc@1.0.so|fd0a6464aed056b55dcc08272d03e3790670747c
+
 # Power-off alarm - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 -vendor/app/PowerOffAlarm/PowerOffAlarm.apk|3fbc64ee84b17eaaf5f9002b58f4615216de0389
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|b7f648c81773214202aaa3620863d048c90713c7
