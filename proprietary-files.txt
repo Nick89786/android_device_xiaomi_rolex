@@ -98,14 +98,15 @@ vendor/lib/libactuator_pseudo.so|04d831577abece59ae051042bddac6f430ebd724
 vendor/lib/libactuator_rohm_bu64243gwz.so|bac8fcf1b40432af9459d804d70fc2afb094f210
 
 # Camera chromatix - from riva - V9.2.4.0.NCKMIEK
-bin/mm-qcamera-app:vendor/bin/mm-qcamera-app|c7ba621a7bd86790e7e0f2cd476ef26782ec9a1b
+bin/mm-qcamera-app:vendor/bin/mm-qcamera-app|ae879389216910d93bf3661e9c7ef3b56a545397
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon|ac9b9fd8d4c2a93e10c461b62677454f22d760ab
-vendor/etc/camera/camera_config.xml|a9285443851f58b0f0eae003e0b80c9cf410f6d8
+vendor/etc/camera/camera_config.xml|5df82c76aa8969f29c4556ddf3a7370c76e4d938
 vendor/etc/camera/csidtg_camera.xml|406e2dec13dc910415ff72fc5a7ee084c97ab61f
 vendor/etc/camera/csidtg_chromatix.xml|bf4b37d8dd850ebb6bda8c5ebdd427cdb5515f35
 vendor/etc/camera/imx214_chromatix.xml|c27c3a806a18dfa693c186dbf5fdf48f715acacb
 vendor/etc/camera/imx230_chromatix.xml|5fc002e42292f302f4e5d0f45f94d5e35c6e0821
 vendor/etc/camera/imx230_qc2002_chromatix.xml|409c6201180203e1a63a0af5629d3a79102b6452
+vendor/etc/camera/imx230_qc2002_with_gyro_chromatix.xml|f920cacaefa82096d3a806d0ac7a2a4570a8f83d
 vendor/etc/camera/imx258_bear_chromatix.xml|211a55da57e93c555e12f4199ed480c068a166e4
 vendor/etc/camera/imx258_chromatix.xml|6f0e002d69a90e5e1b6c2499ad0d4218bf484f10
 vendor/etc/camera/imx258_mono_bear_chromatix.xml|81de051d0813deb56eb522e8e7cb1edbe9ee3afb
@@ -1863,7 +1864,9 @@ vendor/lib64/libmmcamera_cac3_lib.so|3ae46117be3a8050a3a97aca417d18081cb0296d
 vendor/lib64/libmmcamera_dbg.so|ab2758afe90ec500732c641fbeda7fdc518b12a8
 vendor/lib64/libmmcamera_tintless_algo.so|b37abbda9594fb6cff551ee7f57d218925455d4e
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so|a130c6dda0ee884e96f9b51066ee038e995bd5ec
-
+vendor/lib/libmorpho_hdr_checker.so|9df5fb479a8b9123c6a9d90b743978d21bfcac87
+vendor/lib/libmorpho_panorama_gp.so|aa131ed9a7cd2caf5b1cb72900ca9b2126f7df46
+vendor/lib/libmorpho_easy_hdr.so|21c05bdb7dbada55096e1a7f0be364d313a18b61
 vendor/lib/libmmcamera2_c2d_module.so|d2aa32c767617890245c35edc007f886049df276
 vendor/lib/libmmcamera2_cpp_module.so|3bb541c82b58689de61c188dad705fc7a4373f7f
 vendor/lib/libmmcamera2_dcrf.so|f176d5bd711efc2e3c7eee5ab557b8a3c08aa49f
@@ -1898,8 +1901,8 @@ vendor/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw|
 vendor/firmware/cpp_firmware_v1_12_0.fw:vendor/firmware/cpp_firmware_v1_12_0.fw|de18ccdf371824059acfdf3c7754c6e1bc1c2f8c
 
 # Consumer IR - from rolex
-vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.default.so|b2e014de968f65e013b4dae3fad67f16aa3b0a09
-vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so|bed46204c8200d5f0ec1b37c14ecbc06f424db93
+vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.default.so|53830d64d63d6cc405209d8d4cafea102dcd7b54
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so|d5145eb1712c8e0895016282f3e348c98ad17f7b
 
 # Display calibration
 vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a.xml:vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a.xml
