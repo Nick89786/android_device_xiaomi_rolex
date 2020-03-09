@@ -434,16 +434,16 @@ vendor/lib64/libsensor_reg.so|74659858f5abcfa0d8c826af2e2e46addc9f5f87
 vendor/lib64/libsensor_user_cal.so|92de798c64f9e23ca1069a5a4bec5895fafa9a22
 vendor/lib64/sensors.ssc.so|3d6eed945ab3ec2d91517cd6e9941df17a290445
 
-# Thermal - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/thermal-engine|bbf772d4acf6c11413d2f728140aae63a49d3eae
-vendor/lib/libthermalclient.so|523476e106337823696f0600b48f057d8c629465
-vendor/lib64/libthermalclient.so|796c3e071fe9d6fa57598e1205a762cb55720f88
-vendor/lib64/libthermalioctl.so|6eed5b8ca6989809eac27abd4af19bbd6f3845ee
+# Thermal - from daisy - QKQ1.191002.002 V11.0.2.0.QDLMIXM
+vendor/bin/thermal-engine|4ab3c410fbcf9f8cae711ea4ba16cd2797712de6
+-vendor/lib/libthermalclient.so|6077e27e15d9e3e43fa57d6d5405c49284f48949
+-vendor/lib64/libthermalclient.so|12b26d4242b1a8913ddcb511f42a1debb83689af
+vendor/lib64/libthermalioctl.so|24b22582f3f77769c5fbca06fcc1d3b6533cdf40
 
-# Time services - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
--vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
-vendor/bin/time_daemon|bc58af8ed0cc94708aa75372565f4251991ab123
-vendor/lib64/libtime_genoff.so|8f4c1f9ace6af463b241b130d6872b5d39cc7b2a
+# Time services - from daisy - QKQ1.191002.002 V11.0.2.0.QDLMIXM
+-vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
+vendor/bin/time_daemon|75b8a6a14cfb4424499ccb2bf1cad011df295d0e
+vendor/lib64/libtime_genoff.so|06df52867790cdbbcc674a3a28d7ad7c8cc161ac
 
 # Widevine - from daisy - QKQ1.191002.002 V11.0.2.0.QDLMIXM
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|e130b8f1c8d46d8a185b00cba5ff8a2a871ee94c
