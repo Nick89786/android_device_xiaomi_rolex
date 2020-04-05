@@ -218,7 +218,7 @@ on post-fs-data
     rm /data/vendor/perfd/default_values
 
     # Create IOP  deamon related dirs
-    mkdir /data/vendor/iop 0770 root system
+    mkdir /data/vendor/iop 0700 root system
 
     # Mark the copy complete flag to not completed
     write /data/vendor/radio/copy_complete 0
@@ -254,6 +254,13 @@ service irsc_util /vendor/bin/irsc_util "/vendor/etc/sec_config"
     class core
     user root
     oneshot
+
+service iop /system/vendor/bin/iop
+    class main
+    user root
+    group root
+    disabled
+    socket iop seqpacket 0666 root system
 
 service vendor.rmt_storage /vendor/bin/rmt_storage
     class core
