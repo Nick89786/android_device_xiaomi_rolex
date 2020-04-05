@@ -213,19 +213,19 @@ vendor/firmware/a330_pm4.fw|ae739ea812f9e4462d7bba8b9ead5782d4496618
 vendor/lib/libhdr_tm.so|4c371d0931245a65d0b4df768de8837bbdf4832e
 vendor/lib64/libhdr_tm.so|c388a9b14966583cde2c682c129fcf5cfa298239
 
-# Graphics (SDM) - from X00RD - QKQ1.191002.002 17.07.2003.405-20200330
-vendor/lib/libscalar.so|7ac579768ffd2caee903d69d8fd3f7918b04ffbe
-vendor/lib/libsdm-color.so|fa3f8c0062d474fdf6960fcbcc3bf21a5c3fd594
-vendor/lib/libsdm-diag.so|46b5c2d6fab1e655efde1657b2e51dc00c00b763
--vendor/lib/libsdm-disp-vndapis.so|9bd99e0024f5abcc285f64aadea8725556f16789
+# Graphics (SDM)
+vendor/lib/libscalar.so|19694644ccc2feac6af99f46cbefac687b31e39f
+vendor/lib/libsdm-color.so|7291ff8f6f422b4010a1ab809bb5a2216d4a2b9a
+vendor/lib/libsdm-diag.so|851f807ce504bb6edb413277eefc2cf3923ac4b3
+-vendor/lib/libsdm-disp-vndapis.so|5a0ea39019d5b0709c48bbfcb61cd817e0307c95
 vendor/lib/libsdmextension.so|5d4f365e0f9cae77e51deab70ea27114ea57389b
-vendor/lib/libtinyxml2_1.so|ef2167416f7a5a503256c5e818fcfa660d5146f4
-vendor/lib64/libscalar.so|b7feb3266d5bccab8b26c49eea6ac8e295192f9a
-vendor/lib64/libsdm-color.so|993dc946c4aa439280527c13798938c51dd9dee7
-vendor/lib64/libsdm-diag.so|87373a043267b9b3bb923931a910119a9deb425f
--vendor/lib64/libsdm-disp-vndapis.so|b1dede9efa81e8d0374343612ad7ad0d967e8e29
+vendor/lib/libtinyxml2_1.so|ae18b1269052274ad98ff954bf8e1ce0fe50eccf
+vendor/lib64/libscalar.so|2887ceaf08f1c17fffe13038168d48dcb442f0cc
+vendor/lib64/libsdm-color.so|fb624abddaf7c5971f470c36dcdd7c7feb060352
+vendor/lib64/libsdm-diag.so|db4c495e3e64ea0cbc0d079a2aa16862a9b02192
+-vendor/lib64/libsdm-disp-vndapis.so|92fe3602eaaae1847965e8886d2cbef3d0a801f8
 vendor/lib64/libsdmextension.so|544f08d91ae5f50184b4f5661f327ce85ca74a72
-vendor/lib64/libtinyxml2_1.so|56d4d5d0ea010f951de219c7b9fd2c9695a5b9d2
+vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
 # IMS - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 -app/uceShimService/uceShimService.apk|d2ecdb607749b0496664db52b706e9340bd9b9f0
