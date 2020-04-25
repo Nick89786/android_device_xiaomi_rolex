@@ -1,45 +1,45 @@
-# ADSP - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/adsprpcd|3d1e7e14dfc2f2468a06e0af9c0d34f4bda28d4b
-vendor/lib/libadsprpc.so|a2ff69f96a9242d4be0fe5cae2475c23294f937a
-vendor/lib/libfastcvadsp_stub.so|6b50fd7d53811b51e06fedd87c12a794d0c2f645
-vendor/lib/libfastcvopt.so|be6d462207dcc238a734d324c479d1022a324c16
-vendor/lib64/libadsp_default_listener.so|f7ea94537c66dfa11e1235064d43c8f56c3b3c51
-vendor/lib64/libadsprpc.so|fe4a7c28a2284ab95c068ad3ffaf256705cf9a02
+# ADSP - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/bin/adsprpcd|8b439846f016decb7519e5fd5cb2c86e192af036
+vendor/lib/libadsprpc.so|0aad33b00f5f49873495cba77d05b47777cc00c2
+vendor/lib/libfastcvadsp_stub.so|007f27f451f38fae463270850901c08536428d3f
+vendor/lib/libfastcvopt.so|724795d54a641983146a0dc778accecf957a70e3
+vendor/lib64/libadsp_default_listener.so|35d53fde1b2983ced8f0c03a8aa670d1199e5356
+vendor/lib64/libadsprpc.so|476d887ee4a0101fd34f85111f5a1cc082497e04
 
-# Audio - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib/libacdb-fts.so|f140cc5c13855f411d9b944316828b42dd6b7d75
-vendor/lib/libacdbloader.so|52fb25441a742d744f6574d1065ae1b822769c48
-vendor/lib/libacdbrtac.so|8a469a26ed1ecff8e22ee141d98bde97513a6212
-vendor/lib/libadiertac.so|e8e2c208abafc6d6c34717aee3d822bfb3a23f76
-vendor/lib/libadm.so|01e2316dfa1afcb000984e9f68903ba6a1220159
-vendor/lib/libaudcal.so|5a6b0fa75e274b07f2dabdcc7381879e1a59898c
-vendor/lib/soundfx/libqcbassboost.so|0a730813a7335208a5368f48de4790abda536c59
-vendor/lib/soundfx/libqcreverb.so|3cbf222a205e4ccbe812fc69d580abd2237e64d5
-vendor/lib/soundfx/libqcvirt.so|8f60a539fe18de5944d5f1dcd6d0ec5e56b336ea
-vendor/lib64/libacdb-fts.so|1a298a90fe8007fe1a3b352ff7d19ae73734f3cc
-vendor/lib64/libacdbloader.so|2ecf30ba0171aab7fdc720446238d48048cf6b7e
-vendor/lib64/libacdbrtac.so|c44ff9b9aa63e34ca1b77a5f0bfb6a5e50585048
-vendor/lib64/libadiertac.so|aeaf6f057d26acf342609c714213e1c9b3409774
-vendor/lib64/libaudcal.so|96c43cbe0ac304ea128def709d7f3ea99db7f260
+# Audio - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/lib/libacdb-fts.so|f2fbbe1aee3da4824936bba158eff0e301c48632
+vendor/lib/libacdbloader.so|3224fe154bfe90ec764180c8c643eb802829b754
+vendor/lib/libacdbrtac.so|57fdd51d780130cf374ad6a769e628e593b8b46a
+vendor/lib/libadiertac.so|282df5a0ecefe537dce9caed151df30913712f0b
+vendor/lib/libadm.so|db09ef76db9c88451ef34dcf31e460ae39a10617
+vendor/lib/libaudcal.so|4cddffd86ca8f2b79098b445b3569bc789bf4328
+vendor/lib/soundfx/libqcbassboost.so|d6fda61671b409e7ff107733ddd1cfab0e49f124
+vendor/lib/soundfx/libqcreverb.so|4cb0aa20d96ee97a6a0d6ae9ed3c0971bfbe7645
+vendor/lib/soundfx/libqcvirt.so|b2666650c6bd9f379d5d4eb8277e02cac3032e7d
+vendor/lib64/libacdb-fts.so|e1bb6ccb006627f684ee08a9368f730b135dc1e0
+vendor/lib64/libacdbloader.so|06ce065d344606bb8a4f89b3271b3ed387743ee5
+vendor/lib64/libacdbrtac.so|b3b51f33bb41c800cbcf4604c998d66d3407e699
+vendor/lib64/libadiertac.so|772a6f1f1ac2d44f8dd277b2adeec7e82334c8db
+vendor/lib64/libaudcal.so|47416b93300694c7af1dec37d3800432bad1549b
 
-# Bluetooth - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|9178856dc8651b499d1b155825b6115a486ee05e
+# Bluetooth - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|ca7db78156aacf5c8387023a66fa3614f2481285
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|8c68d863da2456efbc95046519b99f23e517c9ab
-vendor/lib64/libbtnv.so|35444e0ca93a50751db92aa4871cf277dc66b1fa
-vendor/lib64/libbt-hidlclient.so|0b0b69ef9787e3cd5409f0050cad03698dd6ce26
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|99a923fe3130829179a99c3950ef478a1f1767b5
+vendor/lib64/libbtnv.so|e82b85f5e87efc955577ab69b881b466c591b8bb
+vendor/lib64/libbt-hidlclient.so|185432ad48e32b1f9d49a6b974f2a5e1ed1a355f
 
-# Bluetooth (shared dependencies) - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib64/com.qualcomm.qti.ant@1.0.so|3a19c81d66ef1190d0b2f361420d5cbf707cc600
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|dc576dfcb0bf390a106b5ed8861e7f547110cbf1
+# Bluetooth (shared dependencies) - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/lib64/com.qualcomm.qti.ant@1.0.so|05e6190e6feb2f23b86e1ce4517b73712465bb2d
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|db3afdb3dcc6e39effed66e6397131a1dafd86a1
 
-# CNE - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
+# CNE - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
 etc/permissions/cneapiclient.xml|15831adf0e80243042b90c734eea0a68eb8ae9c9
 etc/permissions/com.quicinc.cne.xml|e99e631d8b06ba4680529e9e4004d8d05baf6904
 framework/cneapiclient.jar|af7db889362e562a4c5073bb6aae32947218abf0
-framework/com.quicinc.cne.jar|ce985797730a043142c2312e30ada28cb755faef
--priv-app/CNEService/CNEService.apk|4c6ee655fcdda500f4999ca9b3e1c028af2c8a71
-vendor/bin/cnd|81c0f2beecb6f375b4d460adbfb739b8aa970a70
+framework/com.quicinc.cne.jar|56cb2e1ecb464f29c715a0a5e0a7393560ea1c8c
+-priv-app/CNEService/CNEService.apk|e871eb09d3fb6f271dee6989ea7576761d8e1cda
+vendor/bin/cnd|b7a9f3bec9217b3b6ee2ee2e326b812e9f8096ce
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
 vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml|f88e13f1dd7b82388c90358f71813026370c9ed8
@@ -67,55 +67,57 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml|9b123d81c9b8991499cda33b0706810e0c
 vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml|ff91feb5060a6df07e3e4d9bc99ae58bccad7649
 vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml|f76c894f3c6d5b6ed35113a088dc3174c900501b
 vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml|14d136e7fcc682311757d3edc0b9d3eaeba11815
-vendor/lib64/com.quicinc.cne.api@1.0.so|2aae2b09112de601de10b95b8c22ec5c2a1007f5
-vendor/lib64/com.quicinc.cne.api@1.1.so|ed69d020ba913f5f7845abb5bb30fc5e0ccb782c
-vendor/lib64/com.quicinc.cne.constants@1.0.so|9d795f365368f2384413b9796b35eef8edd3a595
-vendor/lib64/com.quicinc.cne.constants@2.0.so|aa3692a9b08523dfd2495856a233e820fa3bfa01
-vendor/lib64/com.quicinc.cne.constants@2.1.so|41cab788fd2c17bce5619771431248f44317caea
-vendor/lib64/com.quicinc.cne.server@2.0.so|403dee79f2adf024a44947c5131c00e119db84e7
-vendor/lib64/com.quicinc.cne.server@2.1.so|ed78619bc3a4b54c57183c943ce2147c7aa58920
-vendor/lib64/com.quicinc.cne.server@2.2.so|3bb958c5cba5d448cfb2f52f5af31779f91fe4c5
-vendor/lib64/libcne.so|249e8cf3bd9f8e9dce7090a6850fc1d79acc7f36
-vendor/lib64/libcneapiclient.so|9e121b96ce15e33aaf9318b7b93eaa49a644b7cf
-vendor/lib64/libcneoplookup.so|86c694067e735b86efa04871fde8a9a7a81161d8
-vendor/lib64/libwms.so|57d9f33071f4ae42ac77c98fb82f4e1fe8ac4754
-vendor/lib64/libwqe.so|47afecb9615f1dcad01e2d36f47a08229f5c43aa
-vendor/lib64/libxml.so|dba175d291e1adc004bf1463db091cde95a0d92d
-vendor/lib64/vendor.qti.data.factory@1.0.so|648517a078dcc8a3810f10fc977ca38db509aa91
-vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|618e11074d4b2351f96e15c4c6897b0fe424cc03
-vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|7204cf8f2dcf8c88b531b86b0da0e643f1de6487
-vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|b1c83ea1046e5e356e0b0a74b99d7a3a96c7fc0b
-vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|cbc75b554051298020506d85427a1aa70346fbd5
-vendor/lib64/vendor.qti.latency@2.0.so|15e50ce40e210993343406947dd2c959920f40c8
+vendor/lib64/com.quicinc.cne.api@1.0.so|1179434cbc23483d39a6d8291e2b338f1d35b80e
+vendor/lib64/com.quicinc.cne.api@1.1.so|b861ac056cb5f318f64371f5f1ca770084d43c2c
+vendor/lib64/com.quicinc.cne.constants@1.0.so|92ec19880eff39024caf7dea561af829833b62ed
+vendor/lib64/com.quicinc.cne.constants@2.0.so|dfc86ee96ca3deedac073b38f87a87b8e3571777
+vendor/lib64/com.quicinc.cne.constants@2.1.so|a93d72742a19b4f813c85f421b9fe61f45ed25a5
+vendor/lib64/com.quicinc.cne.server@2.0.so|e45fc471f727393352e10c3228aea00e110c0171
+vendor/lib64/com.quicinc.cne.server@2.1.so|eefffa728a69eb8421c75003630bf282ac9928ac
+vendor/lib64/com.quicinc.cne.server@2.2.so|7337e41a312b535fd0a0b0c2ca4ea4a4a40f7db8
+vendor/lib64/com.quicinc.cne.server@2.3.so|3d295e9c75fdc91e9b68e7ae12ce1e3c6cbd2c33
+vendor/lib64/libcne.so|d72f32f065d555821f7b100a086d6ca0f59ed6ad
+vendor/lib64/libcneapiclient.so|5722351c4a772371a04335b2b3ccbcea7f04b6c3
+vendor/lib64/libcneoplookup.so|914b9f51f8cffaef7755bea7f78ba17a365916a6
+vendor/lib64/libwms.so|618c596ceb11d0b3666741bdee92a80784d7cfeb
+vendor/lib64/libwqe.so|04ca79b2912bc6a79273fbe5ecf93e70474c0484
+vendor/lib64/libxml.so|aa8b2e9f56192bc1037e171166425c1afd46b54f
+vendor/lib64/vendor.qti.data.factory@1.0.so|cf0f34cc9d740a7cc53d152b5b3bc5128f3e0b26
+vendor/lib64/vendor.qti.data.factory@1.1.so|2caff0bbbae28d7c0f3a6804603de4dde313e0ab
+vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|f447e7765a12434ceb7c487d3fcd90905c36e1a0
+vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|1fe5cd9c8c5177f405dc7af9dfa1152955896d4f
+vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|bb2c6f9dabeacf88ecd8a4210716664ae8438feb
+vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|c551369158590ce5bd19c5c7817a3e29be82889c
+vendor/lib64/vendor.qti.latency@2.0.so|a65daa87e3fe935164d314f112c07d960b6d6c4f
 
-# DPM - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-bin/dpmd|1b38829a7faf33d5cbdc195d703f99384c20c9f4
-etc/dpm/dpm.conf|5f19d3984b5291ac956552bda2a84c10c535df0a
+# DPM - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+bin/dpmd|e8612552ec6873fae6d6ff5fb4bbfb381936cd01
+etc/dpm/dpm.conf|fec89edb6cff81424a6c3a730fed92efa3613f72
 etc/init/dpmd.rc|52ca6ad920a1804e4ff608113cece063730f5e0c
 etc/permissions/com.qti.dpmframework.xml|36b94c9338069e434b83359a92cdc7ff62b822df
 etc/permissions/dpmapi.xml|ded29f9befaef20a7ccee0c75427fda1d1d04890
 framework/com.qti.dpmframework.jar|2a6ff555ebff148a508fc7ea2fbeaee4b9a2dff6
-framework/dpmapi.jar|66a30e2752b058f6f522721ef6b5efb4c747f7ed
+framework/dpmapi.jar|89ddc5bf0c4c88a3f341169edc4d89f9e834337b
 lib64/com.qualcomm.qti.dpm.api@1.0.so|2af88934e4039edaac842576a1861cbdfe39838b
-lib64/libdpmctmgr.so|595449eff197e8c3bc6f7a4f0242188abe82418f
-lib64/libdpmfdmgr.so|f03869f7bee601182c545e892523d23529439e16
-lib64/libdpmframework.so|9dc137606c1cb73e3ec5a97c954df93e750dd459
-lib64/libdpmtcm.so|1f85ced85f541146756df0b4597a4c51300be63a
+lib64/libdpmctmgr.so|223fde51379c6c339fba29642f041f4d7159f09b
+lib64/libdpmfdmgr.so|4d3b7885f4d119c7ade6f2164b77dd4c4ea76e3e
+lib64/libdpmframework.so|74d09fba972e6e7aee9d130784a7b74f9651b587
+lib64/libdpmtcm.so|6d3a3d1890b46ec1c5bb1b57faee873b553200aa
 -priv-app/dpmserviceapp/dpmserviceapp.apk|a642336052f3e5d70580700e2aebba230a5f663f
-vendor/bin/dpmQmiMgr|31e019a02d25a959a2edfe2c9a04ab958562bb67
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|2af88934e4039edaac842576a1861cbdfe39838b
-vendor/lib64/libdpmqmihal.so|4254cc9f10f6f3d990958c17f4e43d8e9e09c382
+vendor/bin/dpmQmiMgr|1de45c90034138c3869a8694a94b73b908c4bede
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|05af4880ad4c633fe60750ff49525e62822585f7
+vendor/lib64/libdpmqmihal.so|d5d41ff3a4e7dbb6f12fa3152df1fcce96c54b55
 
-# DRM and SEE - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/qseecomd|14eaa0752ac0eb2308708056d094a05d9e5129b8
-vendor/lib64/libQSEEComAPI.so|1e695dcc9197c685c294d426822d2cb4e4c9c592
-vendor/lib64/libdrmfs.so|e20cc71ac84a7998626e600f4dd9dfe356a1436a
-vendor/lib64/libdrmtime.so|4efeb1449809aa172e68fe5bf5aa68be0f21387d
-vendor/lib64/librpmb.so|ba775205529284dc5d2233f11462037538f763af
-vendor/lib64/libssd.so|0e988e6ef7b1d356f4b92a26a61b96a840de1d20
+# DRM and SEE - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/bin/qseecomd|9d47c821002308a1005c483ca92d1a3c5f851f44
+vendor/lib64/libQSEEComAPI.so|7e3c73e4d89cdeaa811b8c4b7aaf9aec1ad15d29
+vendor/lib64/libdrmfs.so|ea89a79c80d5910b8ea77328b459f3fe9eca4b96
+vendor/lib64/libdrmtime.so|44c117c2c47f1c1c1dabf12e7970fe4ab69e6aee
+vendor/lib64/librpmb.so|176b9c180d4c36d0dacc9c43414570d7a0beae16
+vendor/lib64/libssd.so|186fc588531261fb6a886f3c0b6be0903816b0d1
 
-# Gatekeeper - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|c1b386547234815a0d6116b5e4756de66075cd3f
+# Gatekeeper - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/lib64/hw/gatekeeper.msm8937.so|23823517368c6da0497550425a7dbed19208d2a8
 
 # GPS - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 vendor/bin/hw/vendor.qti.gnss@1.0-service|049201d8e22064b87eb52df208d8cda7066d140a
@@ -143,35 +145,35 @@ vendor/lib64/libxtadapter.so|d404e8c5c6e14a556926ba772ca99aa51cbd6a36
 vendor/lib64/libxtwifi_ulp_adaptor.so|58b20fbdbb500add11784acce0808c7198c96c34
 vendor/lib64/vendor.qti.gnss@1.0.so|90b465adc4542f16fbdd935d0592df73d778909b
 
-# Graphics - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib/libadreno_utils.so|f6fd2917558a00aef9196ee815fd8f9b33b91ab5
-vendor/lib/libbccQTI.so|2876950b59585cf4ed60141c87b5f42bc84184aa
-vendor/lib/libC2D2.so|1a555aae15adb00b0cc0b43e14136956c0cd2c87
-vendor/lib/libc2d30_bltlib.so|55f4a13ce639973c9acf6cda4f682b531766b11b
-vendor/lib/libCB.so|c0d96d6a9608e03856a296a06f4316418fd3a376
-vendor/lib/libgsl.so|b9e2b05df65e005aa2670f096f15bbb530d4ef24
-vendor/lib/libllvm-glnext.so|587d59054979d43957fd7aeaa0571f29720f372e
-vendor/lib/libllvm-qcom.so|7f089c8d2088492e6f6a52368bb030315c71df97
-vendor/lib/libOpenCL.so|74840ef50111c3232a7fcef79bf78e7fa516a237
-vendor/lib/librs_adreno_sha1.so|065a538f25d41713501c568a2d7ef1561c8e3bb7
-vendor/lib/librs_adreno.so|12b4c0d4174c108e27a4e09fe3e2b5ac860693a2
-vendor/lib/libRSDriver_adreno.so|26de2b456a064d9d3ea68b8ceacf26f4a866c067
-vendor/lib64/libadreno_utils.so|a87e0e67b0c33f505ecbc48087fd37b00c952f48
-vendor/lib64/libbccQTI.so|dad14c838bec4dd153a09f2b3d01e01875377ba6
-vendor/lib64/libC2D2.so|6e48cf41fe85fdedd8648873b8451c2e264eed57
-vendor/lib64/libc2d30_bltlib.so|2029bc033c176ca48bcd2027d1ebd25d7cac4d53
-vendor/lib64/libCB.so|c34b7c049fbd54f8fcab77f47031f3438b676966
-vendor/lib64/libgsl.so|877e8bc5062951ef450533fd9f07a530a771e93c
-vendor/lib64/libllvm-glnext.so|ad571ceb8f1fd505ee29d4c320423f46e836b611
-vendor/lib64/libllvm-qcom.so|12cc1b6c00622c88156f2054a90c37733d77a7a6
-vendor/lib64/libOpenCL.so|6400a952fbc2d2e5d9aed56ae1aa4f1380dcdd73
-vendor/lib64/librs_adreno_sha1.so|35c26aecafd9a12d84ff6f89b1891699c19eb88f
-vendor/lib64/librs_adreno.so|5b853ae3692fc3d8cf7c5b63d45320533c194cde
-vendor/lib64/libRSDriver_adreno.so|eb72d1cabfb31ee3362c9832a40b265e42858dc9
+# Graphics - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/lib/libadreno_utils.so|9930d4a99e10bdc821e3609695100248d36b3913
+vendor/lib/libbccQTI.so|9db750e8a7353f51ae264d199ffd91e8cdfaacc5
+vendor/lib/libC2D2.so|a110bf0568eef9e49b251b7750cf6e51c3c85969
+vendor/lib/libc2d30_bltlib.so|e9767a3e4e674d42f23f5482471d38973e038d45
+vendor/lib/libCB.so|7787d8e0c6ccb594000c529b4a1a46736494836d
+vendor/lib/libgsl.so|e4869595a493633b5cfe5b94fbc62f24342d3303
+vendor/lib/libllvm-glnext.so|2d62560ebd0e800b1628a6d9c608fdb07f1c6857
+vendor/lib/libllvm-qcom.so|5662a821be6d40fe53e949fa827b221739d305bd
+vendor/lib/libOpenCL.so|fbf2d8e82973ea44583f1ca6a624163759167a73
+vendor/lib/librs_adreno_sha1.so|83f2d4d001f05e688fccac4d3b2c57edffd11dc4
+vendor/lib/librs_adreno.so|41b2a1b35a8a9966728cea607bf5b7a8f568680d
+vendor/lib/libRSDriver_adreno.so|a5161d58911f41c6114e9f321ab8eee1d60324fc
+vendor/lib64/libadreno_utils.so|c2a2afcee56cad745ad5444c3385fb74c0fb9ff2
+vendor/lib64/libbccQTI.so|be1ae3a075c42dcb19bc6e1ecd7374f9aeae083c
+vendor/lib64/libC2D2.so|724684ac0e167bc729cbdea1ee9e21da248cfd58
+vendor/lib64/libc2d30_bltlib.so|e950f918802d3d3e656ab4f0fe731bb60e1b357e
+vendor/lib64/libCB.so|619ce9b168c70b87b21b27a13c5ed68dd59b9b52
+vendor/lib64/libgsl.so|21cde1b1f3c4e4da5ecbf798f3a3447030f5614c
+vendor/lib64/libllvm-glnext.so|6c65d5c47ce0da1ad16935921a74f57509512d62
+vendor/lib64/libllvm-qcom.so|778ab67a89eb99f23896b42457a52a9e3990984c
+vendor/lib64/libOpenCL.so|1e78c9b98378803703835a3e1cbfabf43318f341
+vendor/lib64/librs_adreno_sha1.so|d2d15a07fa695646f0d889dfebc724b3216b3d87
+vendor/lib64/librs_adreno.so|b6bc2274fc4079818f3124a694348a890c5d7b07
+vendor/lib64/libRSDriver_adreno.so|5dade9a0ed21302a6981850512b2294b9849c8c1
 
-# Graphics (HDR) - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib/libhdr_tm.so|8060a5d9ed0283c7b89716165ba8af4b86ef0210
-vendor/lib64/libhdr_tm.so|df15d487e73560f81017bcf4a73c28c9697b1ed9
+# Graphics (HDR) - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/lib/libhdr_tm.so|4d86f165326cadbec610792a9362f4269c13cae2
+vendor/lib64/libhdr_tm.so|a44d285a08aa30ef90e791c646b9c12a697a30b2
 
 # Graphics (SDM) - LA.UM.7.5.r1-03700-8x96.0
 vendor/lib/libscalar.so|cad128a6e71195b4ad38494bc0382bf80e1fb0b2
@@ -186,10 +188,6 @@ vendor/lib64/libsdm-diag.so|7ab5d2a980029ac9bd20fe68656823b21e483e11
 -vendor/lib64/libsdm-disp-vndapis.so|6ae24866bbd413ed112778650c8fd7a2631cb1a9
 vendor/lib64/libsdmextension.so|e91aaf852df780e42bb083c3089f5b42c87c49f7
 vendor/lib64/libtinyxml2_1.so|b743b93bbb47bb2d80322fcfb985b7b8c696fa1b
-
-# Graphics (Vulkan) - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib/hw/vulkan.msm8953.so:vendor/lib/hw/vulkan.msm8937.so|6259874ee4fe1a414b5e2109ec63af55a70d3733
-vendor/lib64/hw/vulkan.msm8953.so:vendor/lib64/hw/vulkan.msm8937.so|e1905916771354829868a65e6757615c7de20b71
 
 # IMS - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 -app/uceShimService/uceShimService.apk|d2ecdb607749b0496664db52b706e9340bd9b9f0
@@ -229,89 +227,89 @@ vendor/lib64/vendor.qti.ims.callinfo@1.0.so|5862ab34c0d040dba63eced727146dd233cf
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|f4eef520bbf98e6e1ac8697ef7eef0109487dba1
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
 
-# Keymaster - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so|f71f1439c9c356ce05d88b876253b4e3dcb10f4b
+# Keymaster - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/lib64/hw/keystore.msm8937.so|48e53d593fe6343ea6f4b946dcbc4ebf6869ad92
 
-# Listen - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib/hw/sound_trigger.primary.msm8953.so:vendor/lib/hw/sound_trigger.primary.msm8937.so|0e716aae6fe6fc4a8b9553953765f64614647e7d
-vendor/lib/libadpcmdec.so|eeaef8dd6cad3da613860bb263f192cda56c60b6
-vendor/lib/libsmwrapper.so|58dcf09adcbe6c851417e1569a120ac2e5e64a9d
+# Listen - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/lib/hw/sound_trigger.primary.msm8937.so|865a2f66fea8380a8d6285c17597abba3e113e11
+vendor/lib/libadpcmdec.so|037a92e8c7af6edb79fae1775cb46148048e3541
+vendor/lib/libsmwrapper.so|7f0df5ed138438a997d4b4e12d3d2790090d2197
 
-# Media - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
+# Media - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
 -vendor/lib/libgpustats.so|83d8856717923ab389aecf17445e33fc21b90afc
-vendor/lib/libOmxAacDec.so|feacef5e0d1e68a54d9fe6a78ee52f4490696f3d
-vendor/lib/libOmxAlacDec.so|e74385d700fe898b0075cd0742fc7db162564a50
-vendor/lib/libOmxAlacDecSw.so|3b4ef8fd510e91df8c440447c03a8a42bac23752
-vendor/lib/libOmxAmrDec.so|5b399fa755cf9d7722ffd7225fe6f23dfc182185
-vendor/lib/libOmxAmrwbplusDec.so|23cc041078de2ca4a6a44e8eb756b74df0a3b1ca
-vendor/lib/libOmxApeDec.so|2f3cb8de2efb00c93688b86f1b55e96de3752b4b
-vendor/lib/libOmxApeDecSw.so|5a8bbc06b9cf680f1c5012660c82f37331559f77
-vendor/lib/libOmxEvrcDec.so|6a50e069ae8b769c7c97bf0398557112d105b183
-vendor/lib/libOmxQcelp13Dec.so|c094a365bd872d93e553d50fd65dc3d93ef1f486
-vendor/lib/libOmxVpp.so|0c37dd16995e08be116a3d560fb3465619de0940
-vendor/lib/libOmxWmaDec.so|015c01595f055fe92ba7210cb9a5bec4a38a06ee
-vendor/lib/libvpplibrary.so|77d1d8d7fa879d1c5df1fb4e210de1e715bf139e
-vendor/lib/libvqzip.so|0b906db131e99cd5460b8a72d05e86721243de95
+vendor/lib/libOmxAacDec.so|f0ddec3f91ab01ab52c8210a6bd870e32da30bff
+vendor/lib/libOmxAlacDec.so|114eba2f28d6c6cc088aee4b66b387f3596f89d5
+vendor/lib/libOmxAlacDecSw.so|b05b008d917425be0acb8b2bd8f93e9e183d2ae0
+vendor/lib/libOmxAmrDec.so|ffe383761f3cef0c3e4c091c86b715224f44dd4b
+vendor/lib/libOmxAmrwbplusDec.so|e68847e3f34bf4a02da984993a1f3e86cd96ecb8
+vendor/lib/libOmxApeDec.so|f15c728a518cc0144e070b589ae9c7c12ed55ddd
+vendor/lib/libOmxApeDecSw.so|ced4504ae4c80f53fb9e6e9ddf29220264feaf44
+vendor/lib/libOmxEvrcDec.so|94756b8e934347182b806364687c1561f4cfe750
+vendor/lib/libOmxQcelp13Dec.so|abc6f2a14ee05ddef28457ad056e627222d44516
+vendor/lib/libOmxVpp.so|6edddfd85ec9bb5dc41c4a08a0a9cb245b4e4812
+vendor/lib/libOmxWmaDec.so|ccf2ce05786237934c6ae2808fbd95e6741f5316
+vendor/lib/libvpplibrary.so|7475aba28b218c91c52a2e9e90a7f68275656024
+vendor/lib/libvqzip.so|1e84a2b79b50c25193207d8c1a9804514f886f9d
 -vendor/lib64/libgpustats.so|35eaab728b21fe7cd33b821bf5cf13ea1117cd90
 
 # Media OMX - from TA-1025_00WW 8.1.0 OPR1.170623.026
-vendor/lib/libMpeg4SwEncoder.so|971eb18b4209287f7c078c082508ebc46c11de0e
-vendor/lib/libOmxSwVdec.so|c1375674bd80792581bb297525fe932ef050424b
-vendor/lib/libOmxSwVencMpeg4.so|024bde5984f312b398d0ae172df7d8fb2db279bc
+vendor/lib/libMpeg4SwEncoder.so|97a699b69be206b6248e43327788e7a7ca0bfedf
+vendor/lib/libOmxSwVdec.so|a93c6e2d3f0f0fc26b8a81ebb82c013f01469590
+vendor/lib/libOmxSwVencMpeg4.so|f3fd3ffef815ffb98e6c6ce7712ef99a1874b235
 
-# Perf - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
+# Perf - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
 vendor/bin/energy-awareness|d9b3f1cc791e0e9612a5ff5df6836af4c921a52b
-vendor/bin/msm_irqbalance|bf933b58332cf94fe4a2072bc3e976a6a82efe3c
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|3f4cf13499019e7e3747679220b280f4f204b8de
+vendor/bin/msm_irqbalance|117d7c8a8f6f12b3615ec8ab676231df93d277f1
+vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|f8ec8e58b9c54441118065737052a8e3a202dd4c
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc|b50182aadab2e31409df61c523d0fb914a394e43
-vendor/etc/perf/commonresourceconfigs.xml|20280e40ca43784316e96be09fe2d2296d79e972
-vendor/etc/perf/perfboostsconfig.xml|7e21bd6dd6fcbbbfc132bccef782ca8bcbe88184
-vendor/etc/perf/targetconfig.xml|1e240759319696ae5920a35d675317b7a4456685
-vendor/etc/perf/targetresourceconfigs.xml|f905a4f59091686d732d7121a9066e79d395056d
-vendor/lib/libperfgluelayer.so|3e6074dca57a25dd07c6398e8a7fc89e7a1d3f2a
-vendor/lib/libqti-perfd-client.so|9d39e6040aae2bda16389679ae2d892cf2d522d1
-vendor/lib/libqti-perfd.so|aab65a0c9d84c8161306a6de81f989cb7e5cb573
-vendor/lib/libqti-util.so|ca0e14efdcec2a85b894ce1b8559f481da2db1ed
-vendor/lib/vendor.qti.hardware.perf@1.0.so|279ed2463248210c433c615c50ec94ecd624f7ac
-vendor/lib64/libperfgluelayer.so|e8bc850cbb8d2c2b9ed8c6b9c48eb4b1fd197622
-vendor/lib64/libqti-perfd-client.so|d9fb126fb7aff2db61978f46f78e0284e95183be
-vendor/lib64/libqti-perfd.so|96806732f4e5f8c25ba2e12a3a939fc2889c7341
-vendor/lib64/libqti-util.so|30dc90c1636fd100a8e101dfa659e0b7299ff813
-vendor/lib64/vendor.qti.hardware.perf@1.0.so|978a16bc6f27967f6345c5b51386d50768553ab5
+vendor/etc/perf/commonresourceconfigs.xml|7bf6b442875ec6244db05ffcc2ebb85a1c370863
+vendor/etc/perf/perfboostsconfig.xml|e9b7ae138e3bc2ef537ddd69def60a027874f1af
+vendor/etc/perf/targetconfig.xml|adba1fd9c150e18120545ead8e92d04b866f839a
+vendor/etc/perf/targetresourceconfigs.xml|1817b8766a5b70c40c302f0add16a783fde135a4
+vendor/lib/libperfgluelayer.so|eff250f2c465db9f740da194e7707b136c1d1df9
+vendor/lib/libqti-perfd-client.so|c822b6c3c7495e08c61b1f2fcf4ddf5f20fe874c
+vendor/lib/libqti-perfd.so|4231813464e8b5d4953d399644158989b27f2f0d
+vendor/lib/libqti-util.so|b27aeb970b9bcb5afbb3dfee72a4bff5e7475bc9
+vendor/lib/vendor.qti.hardware.perf@1.0.so|ea22cd867953e58347023dc4511f417b3442b42e
+vendor/lib64/libperfgluelayer.so|abdfed6cfc085cc84b9cb6e793d304b499a28f83
+vendor/lib64/libqti-perfd-client.so|effa93a6d45ce57ef798aba098529b9b7e6ce3a9
+vendor/lib64/libqti-perfd.so|26086f274d6fb9cf08c7a404b4ec3f068ac2e2d5
+vendor/lib64/libqti-util.so|98bbc3a80fee315fe7de34f0ed5b2ec3042b8d58
+vendor/lib64/vendor.qti.hardware.perf@1.0.so|bf4d0fe696280e9f0a3f004db21745ec8ad8067f
 
-# Peripheral manager - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/pm-proxy|56e9bdaa39270aa4456c9995a8a9e4618ba616a6
-vendor/bin/pm-service|7cbca1671529a805177f11f3f72defdbbe48a61c
-vendor/lib64/libperipheral_client.so|e2fbf94c589dbf8ae6c544a34441783ae9db3a08
+# Peripheral manager - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/bin/pm-proxy|4a6e68147a092369cdf49b8f0396293f12f060c5
+vendor/bin/pm-service|918504285ef7a34c6cb15c2a5017e963f0511583
+vendor/lib64/libperipheral_client.so|20b2c926e4bae057999c768c93844316bed19e08
 
-# Postprocessing - from LA.UM.8.6.r1-01900-89xx.0
+# Postprocessing - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
 etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
 -framework/com.qti.snapdragon.sdk.display.jar|db5b8dd09100aab238b5972192f5ab944f38208c
-lib/vendor.display.color@1.0.so|68f3b191767e32ebe6d1e77725d22bfd1152ce14
-lib/vendor.display.postproc@1.0.so|fe3bfd38306d1c5e2c1ba900c18ccc09b9152b61
-lib64/vendor.display.color@1.0.so|26e35e9283f242bc7771bd40fbfbb0d95ef8951d
-lib64/vendor.display.postproc@1.0.so|40910c332df5288c60bae04f99747c526b5499bd
-vendor/bin/mm-pp-dpps|b6232bb606d3a825c49db06d887c77f23c950069
-vendor/bin/hw/vendor.display.color@1.0-service|633a0a4bed08202ef3799275f06920eb4382db31
+lib/vendor.display.color@1.0.so|5910d16429426831799379bef45a91fb73f1b96b
+lib/vendor.display.postproc@1.0.so|787ce9e6e5bfff372d7ea30ac5bb4435935c5436
+lib64/vendor.display.color@1.0.so|346620084ad60243985250d4082945e6b267c501
+lib64/vendor.display.postproc@1.0.so|c6e7afb4b638425e68ca7cecd0931369db506851
+vendor/bin/mm-pp-dpps|533fb5f9c6558965e65bc72a63027054bed9232a
+vendor/bin/hw/vendor.display.color@1.0-service|e6dbb06d0d82ffe3328e7ddd259db02f80c1669e
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
-vendor/lib/libdisp-aba.so|899f5fa3875c7c536df030dfa1db3b84041131b0
-vendor/lib/vendor.display.color@1.0.so|68f3b191767e32ebe6d1e77725d22bfd1152ce14
-vendor/lib/vendor.display.color@1.1.so|9fc879923cdf549709fe09913393f4a01af052cb
-vendor/lib/vendor.display.color@1.2.so|88782c36567cf84014710e94630c94217f030fd6
-vendor/lib/vendor.display.postproc@1.0.so|fe3bfd38306d1c5e2c1ba900c18ccc09b9152b61
-vendor/lib64/libdisp-aba.so|0444e77190b509144d9a6730034c000324703c93
-vendor/lib64/vendor.display.color@1.0.so|603095564d7e341cc50556e7b8a0d80da0c85ee3
-vendor/lib64/vendor.display.color@1.1.so|88fd94a85552a0d8c13f363541c5a5b8933ea1f2
-vendor/lib64/vendor.display.color@1.2.so|4c8662c993e4af6df2d6ebc4101caee0d629e0d2
-vendor/lib64/vendor.display.postproc@1.0.so|fd0a6464aed056b55dcc08272d03e3790670747c
+vendor/lib/libdisp-aba.so|6517b65745c916df066d8418c8503dbec450e694
+vendor/lib/vendor.display.color@1.0.so|770f7668ec65d7f6aff22901874f064231ed8e9f
+vendor/lib/vendor.display.color@1.1.so|a551169fd179967a927f2676effddb27aacee07c
+vendor/lib/vendor.display.color@1.2.so|c830eecb68bf75de098cf8f25cb53dff469fe866
+vendor/lib/vendor.display.postproc@1.0.so|b7015d3803b830ae772d4e4d04932c5a32f1de73
+vendor/lib64/libdisp-aba.so|08b5653fd96cd0d8c2ce65f0fb2e8de29a48c954
+vendor/lib64/vendor.display.color@1.0.so|b78b7d361e31d8057f84f2fcc44fe9b2f9e0a723
+vendor/lib64/vendor.display.color@1.1.so|db472754e0ba4d4438c8a1e69cd06593b14273c4
+vendor/lib64/vendor.display.color@1.2.so|4f3ccc6b6c2da51325868756027558700294f38e
+vendor/lib64/vendor.display.postproc@1.0.so|34567012c0170ee85b06a8a2bf41583cf0994245
 
-# Power-off alarm - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
--vendor/app/PowerOffAlarm/PowerOffAlarm.apk|3fbc64ee84b17eaaf5f9002b58f4615216de0389
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|b7f648c81773214202aaa3620863d048c90713c7
-vendor/bin/power_off_alarm|459ccd83df3fcc076bb82bff60f47d14ad69ad6e
+# Power-off alarm - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+-vendor/app/PowerOffAlarm/PowerOffAlarm.apk|bef295639460c833b3a2ddaf11f9031404b39f15
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|1707a55275c943204574d84d639b4cd9ede15553
+vendor/bin/power_off_alarm|f973dabbdba85ece5115d4beb457cb37887e4358
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|df138b77fb116a1a786a70c9c76b69d61b5c04d2
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|5761eae471e8dcd94ce139e831a1aa5b23f133c6
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|7d163c35a9deee2801070ed50c6625709c3e0b65
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|9cb8be85de76d68d6fd497d3d93c8e46922da9f2
 
 # QMI - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
@@ -390,34 +388,34 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|f3a3051e4a904268
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|ab552724f7d723a70a4e730dba52ab220d33a33e
 vendor/radio/qcril_database/qcril.db|f25a9215fcc2445e73d1aa0b7ef9bdbd97e33f56
 
-# Sensors - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/sensors.qti|3f6368e8d7484f5610fbf899dbe2a95e7cd6855e
-vendor/lib/hw/activity_recognition.msm8953.so:vendor/lib/hw/activity_recognition.msm8937.so|f9247646a5e2b28473753da06f832ae5f702f7c4
-vendor/lib/libsensor1.so|48727a05c1b91051d5ec53860124f1f1c0d8ca53
-vendor/lib/libsensor_reg.so|8ae3b9d1a54feb9f0af55a8fff50410f53660318
+# Sensors - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/bin/sensors.qti|e7cdc1fc3a5456a845d31204a9e40e2b46fb6602
+vendor/lib/hw/activity_recognition.msm8937.so|7238b3b49b7de487479348dc8822be7d834d48cc
+vendor/lib/libsensor1.so|798a6b1768c5968919da0a07feb3b37c6f2eeed6
+vendor/lib/libsensor_reg.so|4408eb1b32669e8b2bd75fa25abde4c7274fc67b
 vendor/lib/libsensor_user_cal.so|df85342393b56994b4f4b4c33aad97928bc6f023
-vendor/lib/sensors.ssc.so|c4b5ee167e5b06fde7143007b87ea5dbe90b0565
-vendor/lib64/hw/activity_recognition.msm8953.so:vendor/lib64/hw/activity_recognition.msm8937.so|5531da4cf2451f899602fb7e3f0e80775bb7e5ff
-vendor/lib64/libsensor1.so|48dedf69781fb146fc35e622f1c80a635530da22
-vendor/lib64/libsensor_reg.so|74659858f5abcfa0d8c826af2e2e46addc9f5f87
+vendor/lib/sensors.ssc.so|1f11a382e0439d328502ab7a8e022f05287496ee
+vendor/lib64/hw/activity_recognition.msm8937.so|72d74f500d180fa38dce6b81ccd96f4f513f1bda
+vendor/lib64/libsensor1.so|4c51a96909168903706806b1a027c3975c0be9de
+vendor/lib64/libsensor_reg.so|0e41fee3f0b5a004ad66d4e5f188bdd64428976b
 vendor/lib64/libsensor_user_cal.so|92de798c64f9e23ca1069a5a4bec5895fafa9a22
-vendor/lib64/sensors.ssc.so|3d6eed945ab3ec2d91517cd6e9941df17a290445
+vendor/lib64/sensors.ssc.so|8fede499a1a26e15733226878a6b2bf81d67c155
 
-# Thermal - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/thermal-engine|bbf772d4acf6c11413d2f728140aae63a49d3eae
-vendor/lib/libthermalclient.so|523476e106337823696f0600b48f057d8c629465
-vendor/lib64/libthermalclient.so|796c3e071fe9d6fa57598e1205a762cb55720f88
+# Thermal - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/bin/thermal-engine|7b59145e9e75cdc8b491f2ed7a04c0880899fc74
+vendor/lib/libthermalclient.so|2c91276835c185e47a66916d24b3adc98b17e6eb
+vendor/lib64/libthermalclient.so|faf92c38d52487cb8fa350f1ec786af17ac716cb
 vendor/lib64/libthermalioctl.so|6eed5b8ca6989809eac27abd4af19bbd6f3845ee
 
-# Time services - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
--vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
-vendor/bin/time_daemon|bc58af8ed0cc94708aa75372565f4251991ab123
-vendor/lib64/libtime_genoff.so|8f4c1f9ace6af463b241b130d6872b5d39cc7b2a
+# Time services - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+-vendor/app/TimeService/TimeService.apk|3c9e8763b1b81e71b378eb735eee8c6f657a26d4
+vendor/bin/time_daemon|58444b9fc2ff8f1fa7e1e61d04bb6915250eddf0
+vendor/lib64/libtime_genoff.so|275372cf75cb36caff27e9e6ab4f1e8e72aa404d
 
-# Widevine - from daisy - PKQ1.180917.001.V10.0.1.0.PDLMIFJ
-vendor/bin/hw/android.hardware.drm@1.1-service.widevine|9743c4ecd0fb8773795bcbfbb406f25616c04129
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|5a01d337c1d375ee24a6c8992ba91f54afb7637e
-vendor/lib64/libwvhidl.so|a3444ac0deb8144a08ba2ed1dad2f2369096c7af
+# Widevine - from olive - PKQ1.190319.001-V11.0.6.0.PCNINXM
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine|c3601b86662f19203392ecb2fb811a7b4b6023a3
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|458dd241f5f8536eccb57f012b3eba0061736e8e
+vendor/lib64/libwvhidl.so|9236d0f7c81152d0fc9a9ba0097e7c2a0ca5d9d5
 
 # Wi-Fi - from tissot PKQ1.180917.001
 vendor/bin/wcnss_service|f8ecd38a41b6b7f832380b489e0c9804c34174d8
