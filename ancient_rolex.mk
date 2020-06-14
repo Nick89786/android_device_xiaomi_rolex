@@ -26,6 +26,9 @@ $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
